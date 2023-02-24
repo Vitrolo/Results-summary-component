@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;300&display=swap');
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: white;
+    background-repeat: no-repeat;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.card
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container
+{
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    max-width: 350vw;
+    max-height: 140vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 400px;
+    text-align: center;
+}
+
+div.your
+{   font-size: 20px;
+    color: #cccc;
+    margin-top: -3rem;
+}
+
+div.pontuacao
+{   width: 150px;
+    height: 150px;
+    align-items: center;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin-top: 1.5rem;
+}
+
+div.titulo
+{
+    margin-top: 1rem;
+}
+
+div.container2
+{
+    background: white;
+    max-width: 350vw;
+    max-height: 140vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+    border-radius: 12px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 15px;
+    font-weight: 200px;
+}
+
+div.titulo-sumario
+{
+    margin-right: 200px;
+    display: block;;
+    margin-top: 1rem;
+}
+
+div.reaction
+{
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    background: rgba(231, 5, 5, 0.1);
+    color: rgb(241, 2, 2);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+div.memory
+{
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    background: rgba(255, 176, 30, 0.1);
+    color: rgb(248, 167, 17);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+div.verbal
+{
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    background: rgba(0, 188, 144, 0.1);
+    color:rgb(3, 218, 167);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+div.visual
+{
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    background: rgba(17, 36, 212, 0.1);
+    color:rgb(11, 33, 235);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+#botao
+{
+    width: 200px;
+    height: 40px;
+    padding: 0.4rem;
+    background: hsl(224, 30%, 27%);
+    cursor: pointer;
+    color: white;
+    font-size: 0.9;
+    font-weight: 500;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    font-family: 'Hanken Grotesk', sans-serif;
+    display: block;
+    margin: 0,auto;
+    margin-top: 1rem;
+
+
+}
+
+div.subtitulokkj
+{
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: #cccc;
+    font-size: 10px;
+    font-weight: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
